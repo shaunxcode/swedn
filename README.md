@@ -44,3 +44,15 @@ If we explicitly want a list we need to express that, the same goes for sets.
 All other normal edn values and parsing apply. 
 
 If we want an "inline map" it needs to be explicit e.g. {:key val}
+
+If you want an ordered map you can accomplish this by starting in a vector (this is useful for a DSL for instance)
+
+    ;swedn
+    [define x
+        y z
+     define z
+        x y]
+        
+    ;edn
+    [{define [x {y z}]} 
+     {define [z {x y}]}]
