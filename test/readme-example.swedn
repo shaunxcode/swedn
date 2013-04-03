@@ -1,0 +1,12 @@
+;swedn
+:cats
+  :cordelia
+    :name "cordelia" 
+    :age 6
+  :tofu 4
+  :margaret 3
+:dogs
+  :schnitzel
+    :favorite-toys :ball1 :ball2 :ball3 
+    :friends [:margaret] 
+    :color {:hair [:black :tan] :eyes #myApp/eyeColor :brown}

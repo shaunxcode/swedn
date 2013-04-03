@@ -1,0 +1,17 @@
+:cat rabbit
+:badger
+	:face red ;comment
+	:hands green
+	:nested
+		:item1 answer "and a string" another answer
+		:item2
+			:nested2 answer2
+			:nested3 answer3
+		:item3
+			:item4
+				:item5
+					:item6 80
+				:item7 90
+:limbs arms legs
+:friends walter frank edgar
+;comment 2

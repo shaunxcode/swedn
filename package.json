@@ -1,0 +1,18 @@
+{
+  "name": "swedn",
+  "version": "0.0.1",
+  "description": "white space sensitive edn", 
+  "keywords": ["edn", "sweet-expressions", "dsl"],
+  "homepage": "https://github.com/shaunxcode/swedn",
+  "bugs": "https://github.com/shaunxcode/swedn/issues?state=open",
+  "author": "Shaun Gilchrist",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/swedn",
+  "repository": {"type": "git", "url": "https://github.com/shaunxcode/swedn"},
+  "dependencies": {
+    "jsedn": "latest"
+  },
+  "licenses": [{"type": "MIT", "url": "http://www.opensource.org/licenses/mit-license.php"}]
+}
