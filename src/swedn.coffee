@@ -67,4 +67,8 @@ prelex = (string) ->
 
 ogparse = jsedn.parse
 jsedn.parse = (string) -> ogparse prelex string
+
+ogcompile = jsedn.compile
+jsedn.compile = (string) -> ogcompile prelex string 
+
 module.exports = jsedn 
